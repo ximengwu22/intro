@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Ximeng(Simone) Wu</span>
+                <span class="d-block d-lg-none">Ximeng Wu</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.png" alt="" /></span>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -28,6 +28,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
@@ -134,17 +135,20 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-2">Course Project</h3>
-                            <div class="subheading mb-3">Networking</div>
+                            <div>
+                                <div class="subheading mb-3" display:inline-block>Networking</div>
+                                <div class="flex-shrink-1" display:inline-block align="right"><span class="text-primary">January 2020 - March 2020</span></div>
+                            </div>
                                 <p>1. Developed a dynamic multi-connection web server and a web client based on Unix socket programming and HTTP protocol, using BSD socket API using Python and server is capable of interpreting MIME typed content and also can be parsed on any web browser.</p>
                                 <p>2. Implemented a reliable transport protocol on top of UDP and TCP, adding a chunking part to reduce processing time from 1.3k packets to 4 packets in total, and runtime of 20,000+ packets down to 5~8 seconds.</p>
                                 <p>3. Implemented a distance-vector and a link-state algorithm in the context of a routing simulator by OSPF and BGP, the event-driven simulator contains a complete network routing work.</p>
-                                <div class="flex-shrink-1"><span class="text-primary">January 2020 - March 2020</span></div>
+
 
                             <div class="subheading mb-3">Course Design of Data Structure</div>
                             <p>1. Maze Game: Pseudorandomly generate a 2D map including rooms and hallways and use spatial relationship to place obstacles and a unique end point. Keyboard and mouse to achieve interactivity on the random initial position. Appended three game rules, time, lives, gold mission, to complicate the game.</p>
                             <p>2. Bear Map: Based on JavaSpark Web framework, Google Gson library and Berkeley map fragments, achieving optimal route search for any given start and end, optimize runtime, and route navigation on the map website. </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - June 2020</span></div>
+                        <!--div class="flex-shrink-0"><span class="text-primary">September 2019 - June 2020</span></div-->
                     </div>
                 </div>
             </section>
